@@ -12,7 +12,7 @@ Welcome! Glad you could stop by.
 
 #### We're not in Kansas anymore
 
-This fantastic name comes from <a href="https://en.wikipedia.org/wiki/The_Marvelous_Land_of_Oz" target="_blank">L. Frank Baum's Oz series</a>. If you sprinkle the powder on something, and say the magic words, the inanimate object will come to life. 
+This fantastic name comes from [L. Frank Baum's Oz series](https://en.wikipedia.org/wiki/The_Marvelous_Land_of_Oz). If you sprinkle the powder on something, and say the magic words, the inanimate object will come to life. For example, the [Jack Pumpkinhead](https://en.wikipedia.org/wiki/Jack_Pumpkinhead) and the [Sawhorse](https://en.wikipedia.org/wiki/List_of_Oz_characters_(created_by_Baum)#Sawhorse).
 
 #### Sure... but what is *this*
 
