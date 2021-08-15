@@ -39,8 +39,11 @@ https://www.arduino.cc/en/guide/libraries
 
 ## How do I contribute code?
 
-You can't. Per the license, you are welcome to modify and further distribute this software. But to [quote Ben Johnson](https://changelog.com/news/open-source-but-closed-to-contributions-jGyl), 
+You can't. All pull requests will be ignored.
 
+However, issues and feature requests are fine. And of course, per the license, you are welcome to modify and further distribute this software.
+
+To [quote Ben Johnson](https://changelog.com/news/open-source-but-closed-to-contributions-jGyl), 
 >I am grateful for community involvement, bug reports, & feature requests. I do not wish to come off as anything but welcoming, however, I’ve made the decision to keep this project closed to contributions for my own mental health and long term viability of the project.
 
 ... I hope you understand.
