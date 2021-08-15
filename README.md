@@ -39,7 +39,7 @@ https://www.arduino.cc/en/guide/libraries
 
 ## How do I contribute code?
 
-You can't. All pull requests will be ignored.
+You can't. All pull requests will be ignored. Unfortunately, GitHub does not currently allow us to disable PRs. See [Dear GitHub #84](https://github.com/dear-github/dear-github/issues/84) and quietly fume...
 
 However, issues and feature requests are fine. And of course, per the license, you are welcome to modify and further distribute this software.
 
