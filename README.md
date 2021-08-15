@@ -14,7 +14,7 @@ Welcome! Glad you could stop by.
 
 This fantastic name comes from [L. Frank Baum's Oz series](https://en.wikipedia.org/wiki/The_Marvelous_Land_of_Oz). If you sprinkle the powder on something, and say the magic words, the inanimate object will come to life. For example, the [Jack Pumpkinhead](https://en.wikipedia.org/wiki/Jack_Pumpkinhead) and the [Sawhorse](https://en.wikipedia.org/wiki/List_of_Oz_characters_(created_by_Baum)#Sawhorse).
 
-#### Sure... but what is ***this***
+#### Sure... but what is *this*
 
 Powder Of Life *(POL)* is a framework for building things. You can create musical instruments, autonomous robots, oversized interfaces, interactive sculptures, or whatever weird thing you design. POL allows you to connect components together without getting bogged down in the figity little bits of figuring out how to work with this sensor or that motor. You just connect the two together, and you will have a reacitve robot that responds to its evironment. 
 
