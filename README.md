@@ -28,7 +28,10 @@ Some of the artifacts I have created with POL (above) are also included with the
 
 #### Tony
 
-![Tony - made with Powder Of Life](Documentation/IMG_0477_200px.jpg) Stuff about Tony...
+![Tony - made with Powder Of Life](Documentation/IMG_0477_200px.jpg) Tony Is just a little noise maker. This is what it sounds like when an Arduino board is turned into a digital oscillator… while it’s busy doing other things. 
+
+Made with laser cut and 3D printed parts, a rotary encoder, an Arduino Nano, a TRS audio jack, and the Powder Of Life framework.
+
 
 #### Kendrick
 
