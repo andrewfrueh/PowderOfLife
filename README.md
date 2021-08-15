@@ -71,6 +71,7 @@ Made with laser cut and 3D printed parts, a rotary encoder, an arcade button, a 
 
 Kendrick is an experimental musical instrument with MIDI output. The big lever controls scale position, and the three knobs control transposition, rhythm, and chromatic tuning. It is made with laser cut plywood, 3D printed parts, rotary encoders, an Arduino Nano, a MIDI jack, a custom PCB, and the Powder Of Life framework.
 [![Kendrick](https://img.youtube.com/vi/WLAo_ge4Y14/0.jpg)]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WLAo_ge4Y14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Valentino
 
