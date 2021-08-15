@@ -28,15 +28,15 @@ Some of the artifacts I have created with POL (above) are also included with the
 
 #### Tony
 
-![Tony - made with Powder Of Life](Documentation/IMG_0177_edit.jpg)
+![Tony - made with Powder Of Life](Documentation/IMG_0477_200px.jpg) Stuff about Tony...
 
 #### Kendrick
 
-![Kendrick - made with Powder Of Life](Documentation/IMG_0192_edit.jpg)
+![Kendrick - made with Powder Of Life](Documentation/IMG_0468_200px.jpg)
 
 #### Valentino
 
-![Valentino - made with Powder Of Life](Documentation/IMG_0167_edit.jpg)
+![Valentino - made with Powder Of Life](Documentation/IMG_0474_200px.jpg)
 
 ## How do I get started?
 
