@@ -22,30 +22,6 @@ I developed POL in response to both my own research and the needs of my students
 
 To see examples of how you might use POL, start by looking at my [personal website](https://andrewfrueh.com). It has links to all the places I post currently on social media, and you can see how I am currently using POL.
 
-### Showcase / examples
-
-Some of the artifacts I have created with POL (above) are also included with the Arduino library (below). While I cannot include the parts (if only we had replicators!), I have included the code that controls them so you can understand what is involved in those builds. Below are the included examples (listed under "Series_2_Showcase" in the POL Examples from the File menu in the Arduino IDE).
-
-#### Tony
-
-![Tony - made with Powder Of Life](Documentation/IMG_0477_200px.jpg) 
-
-Tony Is just a little noise maker. This is what it sounds like when an Arduino board is turned into a digital oscillator… while it’s busy doing other things. 
-
-Made with laser cut and 3D printed parts, a rotary encoder, an Arduino Nano, a TRS audio jack, and the Powder Of Life framework.
-
-
-#### Kendrick
-
-![Kendrick - made with Powder Of Life](Documentation/IMG_0468_200px.jpg)
-
-Kendrick is an experimental musical instrument with MIDI output. The big lever controls scale position, and the three knobs control transposition, rhythm, and chromatic tuning. It is made with laser cut plywood, 3D printed parts, rotary encoders, an Arduino Nano, a MIDI jack, a custom PCB, and the Powder Of Life framework. It is voiced here by a Korg Volca FM synthesizer.
-
-#### Valentino
-
-![Valentino - made with Powder Of Life](Documentation/IMG_0474_200px.jpg)
-
-Valentino is an autonomous driving robot made with laser cut plywood, 3D printed parts, ultrasonic distance sensors, an Arduino Nano, an RC car battery, plastic gear motors and a driver (from Pololu Robotics) and the Powder Of Life framework.
 
 ## How do I get started?
 
@@ -68,6 +44,32 @@ You can't. Per the license, you are welcome to modify and further distribute thi
 >I am grateful for community involvement, bug reports, & feature requests. I do not wish to come off as anything but welcoming, however, I’ve made the decision to keep this project closed to contributions for my own mental health and long term viability of the project.
 
 ... I hope you understand.
+
+## Showcase / examples
+
+Some of the artifacts I have created with POL (above) are also included with the Arduino library (below). While I cannot include the parts (if only we had replicators!), I have included the code that controls them so you can understand what is involved in those builds. Below are the included examples (listed under "Series_2_Showcase" in the POL Examples from the File menu in the Arduino IDE).
+
+### Tony
+
+![Tony - made with Powder Of Life](Documentation/IMG_0477_200px.jpg) 
+
+Tony Is just a little noise maker. This is what it sounds like when an Arduino board is turned into a digital oscillator… while it’s busy doing other things. 
+
+Made with laser cut and 3D printed parts, a rotary encoder, an Arduino Nano, a TRS audio jack, and the Powder Of Life framework.
+
+
+### Kendrick
+
+![Kendrick - made with Powder Of Life](Documentation/IMG_0468_200px.jpg)
+
+Kendrick is an experimental musical instrument with MIDI output. The big lever controls scale position, and the three knobs control transposition, rhythm, and chromatic tuning. It is made with laser cut plywood, 3D printed parts, rotary encoders, an Arduino Nano, a MIDI jack, a custom PCB, and the Powder Of Life framework. It is voiced here by a Korg Volca FM synthesizer.
+
+### Valentino
+
+![Valentino - made with Powder Of Life](Documentation/IMG_0474_200px.jpg)
+
+Valentino is an autonomous driving robot made with laser cut plywood, 3D printed parts, ultrasonic distance sensors, an Arduino Nano, an RC car battery, plastic gear motors and a driver (from Pololu Robotics) and the Powder Of Life framework.
+
 
 ## License
 
