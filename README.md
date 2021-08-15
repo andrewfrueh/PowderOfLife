@@ -21,21 +21,21 @@ Some of the artifacts I have created with POL (above) are also included with the
 
 #### Tony
 
-![Tony - made with Powder Of Life](gallery/IMG_0177_edit.jpg)
+![Tony - made with Powder Of Life](Documentation/IMG_0177_edit.jpg)
 
 #### Kendrick
 
-![Kendrick - made with Powder Of Life](gallery/IMG_0192_edit.jpg)
+![Kendrick - made with Powder Of Life](Documentation/IMG_0192_edit.jpg)
 
 #### Valentino
 
-![Valentino - made with Powder Of Life](gallery/IMG_0167_edit.jpg)
+![Valentino - made with Powder Of Life](Documentation/IMG_0167_edit.jpg)
 
 ## How do I get started?
 
 To get up and running, just download the Arduino library ZIP file and install it on your system:
 
-[Powder Of Life, Arduino library](PowderOfLife.zip)
+[Powder Of Life, Arduino library](Arduino/PowderOfLife.zip)
 
 The library comes with example projects including the projects featured above in the intro.
 
