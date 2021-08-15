@@ -64,6 +64,9 @@ Tony Is just a little noise maker. This is what it sounds like when an Arduino b
 
 Made with laser cut and 3D printed parts, a rotary encoder, an arcade button, a TRS audio jack, a custom PCB, an Arduino Nano, and the Powder Of Life framework.
 
+#### Here's a video of Tony in action:
+[![Tony](https://img.youtube.com/vi/34pFqxZpANc/0.jpg)](http://www.youtube.com/watch?v=34pFqxZpANc)
+
 ---
 
 ### Kendrick
@@ -84,7 +87,9 @@ Kendrick is an experimental musical instrument with MIDI output. The big lever c
 Valentino is an autonomous driving robot made with laser cut plywood, 3D printed parts, two ultrasonic distance sensors, an Arduino Nano, an RC car battery, plastic gear motors, a motor driver, and the Powder Of Life framework.
 
 #### Here's a video of Valentino in action:
-[![Kendrick](https://img.youtube.com/vi/4ntXPG1FF4c/0.jpg)](http://www.youtube.com/watch?v=4ntXPG1FF4c)
+[![Valentino](https://img.youtube.com/vi/4ntXPG1FF4c/0.jpg)](http://www.youtube.com/watch?v=4ntXPG1FF4c)
+
+---
 
 ## License
 
