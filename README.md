@@ -10,6 +10,12 @@ Welcome! Glad you could stop by.
 
 ### What is Powder Of Life?
 
+#### We're not in Kansas anymore
+
+This fantastic name comes from [L. Frank Baum's Oz series](https://en.wikipedia.org/wiki/The_Marvelous_Land_of_Oz). If you sprinkle the powder on something, and say the magic words, the inanimate object will come to life. 
+
+#### Sure... but what is *this*
+
 Powder Of Life *(POL)* is a framework for building things. You can create musical instruments, autonomous robots, oversized interfaces, interactive sculptures, or whatever weird thing you design. POL allows you to connect components together without getting bogged down in the figity little bits of figuring out how to work with this sensor or that motor. You just connect the two together, and you will have a reacitve robot that responds to its evironment. 
 
 I developed POL in response to both my own research and the needs of my students. It began as a collection of components that were developed from recurring problems in teaching new media art classes. Students in these classes are struggling through multiple specializations to achieve their goal (electrical, mechanical, and software engineering). I have found that my best contribution in that process is a simple, well-written script, properly compartmentalized to do a task well. These scripts eventually became the foundation of the Powder Of Life framework.
