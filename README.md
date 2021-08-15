@@ -64,6 +64,7 @@ Tony Is just a little noise maker. This is what it sounds like when an Arduino b
 
 Made with laser cut and 3D printed parts, a rotary encoder, an arcade button, a TRS audio jack, a custom PCB, an Arduino Nano, and the Powder Of Life framework.
 
+---
 
 ### Kendrick
 
@@ -73,6 +74,8 @@ Kendrick is an experimental musical instrument with MIDI output. The big lever c
 
 #### Here's a video of Kendrick in action:
 [![Kendrick](https://img.youtube.com/vi/WLAo_ge4Y14/0.jpg)](http://www.youtube.com/watch?v=WLAo_ge4Y14)
+
+---
 
 ### Valentino
 
