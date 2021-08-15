@@ -70,6 +70,7 @@ Made with laser cut and 3D printed parts, a rotary encoder, an arcade button, a 
 ![Kendrick - made with Powder Of Life](Documentation/IMG_0468_400px.jpg)
 
 Kendrick is an experimental musical instrument with MIDI output. The big lever controls scale position, and the three knobs control transposition, rhythm, and chromatic tuning. It is made with laser cut plywood, 3D printed parts, rotary encoders, an Arduino Nano, a MIDI jack, a custom PCB, and the Powder Of Life framework.
+https://youtube.com/embed/<WLAo_ge4Y14>
 
 ### Valentino
 
