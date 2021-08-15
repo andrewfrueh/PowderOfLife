@@ -1,3 +1,4 @@
+![Powder Of Life logo](Documentation/Git_repo_card_PowderOfLife.png)
 
 # Powder Of Life
 
