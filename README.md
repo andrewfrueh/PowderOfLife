@@ -52,7 +52,9 @@ To [quote Ben Johnson](https://changelog.com/news/open-source-but-closed-to-cont
 
 Some of the artifacts I have created with POL (above) are also included with the Arduino library (below). I have included the code that controls them so you can understand what is involved in those builds. 
 
-Note that I have also included a few of the 2D and 3D part files if you happen to have access to a laser-cutter and 3D printer. See the [Robotics](Robotics) folder. 
+Note that I have also included a few of the 2D and 3D part files if you happen to have access to a laser-cutter and 3D printer. 
+
+See the [Robotics](Robotics) folder for downloadable part files.
 
 Below examples that are listed under "Series_2_Showcase" in the POL Examples from the File menu in the Arduino IDE.
 
