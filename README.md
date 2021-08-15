@@ -51,7 +51,7 @@ Some of the artifacts I have created with POL (above) are also included with the
 
 ### Tony
 
-![Tony - made with Powder Of Life](Documentation/IMG_0477_200px.jpg) 
+![Tony - made with Powder Of Life](Documentation/IMG_0477_400px.jpg) 
 
 Tony Is just a little noise maker. This is what it sounds like when an Arduino board is turned into a digital oscillator… while it’s busy doing other things. 
 
@@ -60,13 +60,13 @@ Made with laser cut and 3D printed parts, a rotary encoder, an Arduino Nano, a T
 
 ### Kendrick
 
-![Kendrick - made with Powder Of Life](Documentation/IMG_0468_200px.jpg)
+![Kendrick - made with Powder Of Life](Documentation/IMG_0468_400px.jpg)
 
 Kendrick is an experimental musical instrument with MIDI output. The big lever controls scale position, and the three knobs control transposition, rhythm, and chromatic tuning. It is made with laser cut plywood, 3D printed parts, rotary encoders, an Arduino Nano, a MIDI jack, a custom PCB, and the Powder Of Life framework. It is voiced here by a Korg Volca FM synthesizer.
 
 ### Valentino
 
-![Valentino - made with Powder Of Life](Documentation/IMG_0474_200px.jpg)
+![Valentino - made with Powder Of Life](Documentation/IMG_0474_400px.jpg)
 
 Valentino is an autonomous driving robot made with laser cut plywood, 3D printed parts, ultrasonic distance sensors, an Arduino Nano, an RC car battery, plastic gear motors and a driver (from Pololu Robotics) and the Powder Of Life framework.
 
