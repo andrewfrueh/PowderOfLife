@@ -2,7 +2,7 @@
 
 # Powder Of Life
 
-A neural-network-framework for building interactive and autonomous analog robots.
+A framework for building simple neural networks to power interactive and autonomous analog robots.
 
 ## Introduction
 
