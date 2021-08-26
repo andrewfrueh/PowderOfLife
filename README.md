@@ -1,4 +1,4 @@
-![Powder Of Life logo](Documentation/POL_logo_horizontal_2k.png)
+![Powder Of Life logo](Documentation/POL_logo_horizontal_2k.jpg)
 
 # Powder Of Life
 
