@@ -67,7 +67,7 @@ Tony Is just a little noise maker. This is what it sounds like when an Arduino b
 Made with laser cut and 3D printed parts, a rotary encoder, an arcade button, a TRS audio jack, a custom PCB, an Arduino Nano, and the Powder Of Life framework.
 
 #### Here's a video of Tony in action:
-[![Tony](https://img.youtube.com/vi/34pFqxZpANc/0.jpg)](https://youtu.be/MQEPB9JzK7w)
+[![Tony](https://img.youtube.com/vi/MQEPB9JzK7w/0.jpg)](https://youtu.be/MQEPB9JzK7w)
 
 ---
 
@@ -78,7 +78,7 @@ Made with laser cut and 3D printed parts, a rotary encoder, an arcade button, a 
 Kendrick is an experimental musical instrument with MIDI output. The big lever controls scale position, and the three knobs control transposition, rhythm, and chromatic tuning. It is made with laser cut plywood, 3D printed parts, rotary encoders, an Arduino Nano, a MIDI jack, a custom PCB, and the Powder Of Life framework.
 
 #### Here's a video of Kendrick in action:
-[![Kendrick](https://img.youtube.com/vi/WLAo_ge4Y14/0.jpg)](https://youtu.be/hUYjM0zr-nk)
+[![Kendrick](https://img.youtube.com/vi/hUYjM0zr-nk/0.jpg)](https://youtu.be/hUYjM0zr-nk)
 
 ---
 
