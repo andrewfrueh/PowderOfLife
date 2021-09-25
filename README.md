@@ -93,7 +93,7 @@ Valentino is an autonomous driving robot made with laser cut plywood, 3D printed
 
 ---
 
-## License
+## License for software in all environments
 
 Powder Of Life, Copyright (C) Andrew Frueh, 2019-2021
 
@@ -108,3 +108,16 @@ See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License along with Powder Of Life.
 If not, see <https://www.gnu.org/licenses/>.
 
+---
+
+## Graphics and Logos
+
+All graphics, logos are under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+---
+
+## Parts and Mechanical Designs
+
+All all 2D parts, 3D parts, and related design files are under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+https://creativecommons.org/licenses/by-nc-sa/4.0/
