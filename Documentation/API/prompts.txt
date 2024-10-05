@@ -1,0 +1,11 @@
+2024-10-05
+
+using Notebook LM...
+
+I can just change the TYPE to drivers, or sensors or whatever. It doesn't care that the example is for sensors, it works anyway. Thank you inference!
+
+>>
+give me an API for the [TYPE]. each class should be level 3 heading. the methods and properties should be bullets. provide an index at the top like this:
+## Index
+- [Sensors](#sensors)
+    - [AnalogSensor](#analogsensor)
