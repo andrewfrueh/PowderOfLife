@@ -1,7 +1,5 @@
 # POL Arduino API
 
-===
-
 ## Index
 - [Drivers](Drivers.md#drivers)
     - [AnalogDriver](Drivers.md#analogdriver)
