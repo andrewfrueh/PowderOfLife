@@ -1,11 +1,11 @@
 # POL Arduino API
 
 ## Index
-    [Sensors](#sensors)
-        [AnalogSensor](#analogsensor)
-    [Drivers](#sensors)
-    [Nodes](#nodes)
-    [Generators](#generators)
+[Sensors](#sensors)
+    [AnalogSensor](#analogsensor)
+[Drivers](#sensors)
+[Nodes](#nodes)
+[Generators](#generators)
 
 
 ========================================================================
