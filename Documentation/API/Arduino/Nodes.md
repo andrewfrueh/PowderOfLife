@@ -24,6 +24,10 @@ The `CurveNode` class applies a mathematical curve to the input value, allowing 
 
 The `EncodedMotorNode` class is a more complex node that combines multiple neurons to control a motor with an encoder.
 
+Has it's own internal neurons: [AnalogSensor](Sensors.md#analogsensor), [EncoderSensor](Sensors.md#encodersensor), [MotorDriver](Drivers.md#motordriver), [LerpNode](Nodes.md#lerpnode),  [ButtonSensor](Sensors.md#buttonsensor)
+
+- `enum endstopMode : byte { none, one, both }` - The possible modes for endstop behavior.
+- `enum encodingMode : byte { analog, digital }` - The possible modes for the encoder.
 - `void setPin(int mdPin1, int mdPin2, int mePin)` -  Sets the pins for a motor driver and a single-pin analog encoder. This method is used for analog encoding mode.
 - `void setPin(int mdPin1, int mdPin2, int mePin1, int mePin2, int esPin1 = -1, int esPin2 = -1, bool mePullup = true, bool esPullup = true)` - Sets the pins for a motor driver, a two-pin digital encoder, and two optional endstop buttons. This method is used for digital encoding mode.
 - `void setSteps(int newSteps)` - Sets the number of steps for the motor encoder and updates the normalization of the digital encoder sensor.
@@ -33,7 +37,7 @@ The `EncodedMotorNode` class is a more complex node that combines multiple neuro
 - `void setEndstopMax()` - Sets the maximum value of the digital encoder's normalization based on the current encoder step count and updates the `motorEncoderSteps` variable.
 - `byte getBehavior()` - Returns the current behavior mode of the motor.
 - `void setEndstopMode(endstopMode newMode)` - Sets the endstop mode, which determines how the motor handles endstops.
-- `byte getEndstopMode()` -  Returns the current endstop mode.
+- `byte getEndstopMode()` -  Returns the current endstop mode. 
 - `void setEncodingMode(encodingMode newMode)`- Sets the encoding mode, which determines whether the motor is controlled using analog or digital input.
 - `byte getEncodingMode()` -  Returns the current encoding mode.
 - `void setMotorStartSpeed(float newSpeed)` - Sets the speed of the motor used when homing to endstops.
