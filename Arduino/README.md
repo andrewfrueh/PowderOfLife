@@ -11,7 +11,7 @@ POL in the Arduino environment provides components to facilitate building variou
 
 ## License for software in all environments
 
-Powder Of Life, Copyright (C) Andrew Frueh, 2018-2022
+Powder Of Life, Copyright (C) Andrew Frueh, 2018-2024
 Powder Of Life is under the GNU General Public License. See "LICENSE.txt" file.
 
 ---
