@@ -4,7 +4,7 @@ This is the reference / API for POL in the Arduino environment. See the examples
 
 ## Overview of the framework in the Arduino environment
 
-Here is an explanation of how the Engine and Neuron base functionality interact in the provided source code, written for new users:
+Here is an explanation of how the Engine and Neuron base functionality interact.
 
 ### Engine and Neuron Interaction
 
