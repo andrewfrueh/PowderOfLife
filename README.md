@@ -2,13 +2,15 @@
 
 # Powder Of Life
 
-A framework for building simple neural networks to power interactive and autonomous analog robots.
-
 ## Introduction
 
 Welcome! Glad you could stop by.
 
 ### What is Powder Of Life?
+
+POL is a framework for building simple neural networks to power interactive and autonomous analog robots.
+
+Feel free to [check out my socials via my website](https://andrewfrueh.com) to see the kinds of things I'm making with POL (i.e. why I put in the endless hours it takes to build all this).
 
 #### We're not in Kansas anymore
 
@@ -47,49 +49,6 @@ To [quote Ben Johnson](https://changelog.com/news/open-source-but-closed-to-cont
 >I am grateful for community involvement, bug reports, & feature requests. I do not wish to come off as anything but welcoming, however, I’ve made the decision to keep this project closed to contributions for my own mental health and long term viability of the project.
 
 ... I hope you understand.
-
-## Showcase / examples
-
-Some of the artifacts I have created with POL are also included with the Arduino library (File -> Examples). I have included the code that controls them so you can understand what is involved in those builds. 
-
-Note that I have also included a few of the 2D and 3D part files if you happen to have access to a laser-cutter and 3D printer. 
-
-See the [Robotics](Robotics) folder for downloadable part files.
-
-Below examples that are listed under "Series_2_Showcase" in the POL Examples from the File menu in the Arduino IDE.
-
-### Tony
-
-![Tony - made with Powder Of Life](Images/IMG_0477_400px.jpg) 
-
-Tony Is just a little noise maker. This is what it sounds like when an Arduino board is turned into a digital oscillator… while it’s busy doing other things. 
-
-Made with laser cut and 3D printed parts, a rotary encoder, an arcade button, a TRS audio jack, a custom PCB, an Arduino Nano, and the Powder Of Life framework.
-
-#### Here's a video of Tony in action:
-[![Tony](https://img.youtube.com/vi/MQEPB9JzK7w/0.jpg)](https://youtu.be/MQEPB9JzK7w)
-
----
-
-### Kendrick
-
-![Kendrick - made with Powder Of Life](Images/IMG_0468_400px.jpg)
-
-Kendrick is an experimental musical instrument with MIDI output. The big lever controls scale position, and the three knobs control transposition, rhythm, and chromatic tuning. It is made with laser cut plywood, 3D printed parts, rotary encoders, an Arduino Nano, a MIDI jack, a custom PCB, and the Powder Of Life framework.
-
-#### Here's a video of Kendrick in action:
-[![Kendrick](https://img.youtube.com/vi/hUYjM0zr-nk/0.jpg)](https://youtu.be/hUYjM0zr-nk)
-
----
-
-### Valentino
-
-![Valentino - made with Powder Of Life](Images/IMG_0474_400px.jpg)
-
-Valentino is an autonomous driving robot made with laser cut plywood, 3D printed parts, two ultrasonic distance sensors, an Arduino Nano, an RC car battery, plastic gear motors, a motor driver, and the Powder Of Life framework.
-
-#### Here's a video of Valentino in action:
-[![Valentino](https://img.youtube.com/vi/4ntXPG1FF4c/0.jpg)](http://www.youtube.com/watch?v=4ntXPG1FF4c)
 
 ---
 
