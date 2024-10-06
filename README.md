@@ -12,6 +12,10 @@ POL is a framework for building simple neural networks to power interactive and 
 
 Feel free to [check out my socials via my website](https://andrewfrueh.com) to see the kinds of things I'm making with POL (i.e. why I put in the endless hours it takes to build all this).
 
+### Is there an API?
+
+Yes. [Check out the API](Documentation/API) It's a work in progress, but I'm building the docs.
+
 #### We're not in Kansas anymore
 
 This fantastic name comes from [L. Frank Baum's Oz series](https://en.wikipedia.org/wiki/The_Marvelous_Land_of_Oz). If you sprinkle the powder on something, and say the magic words, the inanimate object will come to life. For example, the [Jack Pumpkinhead](https://en.wikipedia.org/wiki/Jack_Pumpkinhead) and the [Sawhorse](https://en.wikipedia.org/wiki/List_of_Oz_characters_(created_by_Baum)#Sawhorse).
