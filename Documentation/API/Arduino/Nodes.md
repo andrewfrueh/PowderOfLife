@@ -42,11 +42,14 @@ The `EncodedMotorNode` class is a more complex node that combines multiple neuro
 ### LerpNode
 The `LerpNode` class smoothly interpolates between its current value and a target value provided by its input. 
 
+Uses the [RailcarLerp](Utilities.md#railcarlerp) utility class.
+
 - `void setLerp(float newSpeed, float newAcceleration)` -  Sets the speed and acceleration of the internal lerp object.
 
 ### MixNode
-
 The `MixNode` class combines the values of two input neurons using a chosen mixing mode.
+
+Uses the [Mixer](Utilities.md#mixer) utility class.
 
 - `void setMode(Mixer::mode newMode)` - Sets the mixing mode for the node, determining how the two input values are combined.
 
