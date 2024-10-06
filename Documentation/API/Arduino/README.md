@@ -1,5 +1,7 @@
 # POL Arduino API
 
+This is the reference / API for POL in the Arduino environment. See the examples for usage (available once you install the library in your Arduino IDE).
+
 ## Index
 - [Drivers](Drivers.md#drivers)
     - [AnalogDriver](Drivers.md#analogdriver)
