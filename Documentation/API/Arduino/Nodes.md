@@ -17,10 +17,6 @@ The primary function of the `CloneNode` is to receive an input value from anothe
 
 * **Normalization and Modification:** Although the `CloneNode` itself doesn't directly modify the input value, its position within the signal flow allows for applying normalization or other transformations to the cloned signal before passing it on to subsequent neurons. This is evident in the use of `CloneNode` instances for inversion and steering in the "IR Sensor Driving Servo" example.
 
----
-
-- `void setValue(float newValue)` - Sets the internal value to the provided value.
-
 ### CurveNode
 
 The `CurveNode` class applies a mathematical curve to the input value, allowing for non-linear transformations of the signal.
