@@ -8,9 +8,16 @@
     - [SustainNode](#sustainnode)
 
 ## Nodes
+
 ### CloneNode
 
-The `CloneNode` class simply copies the value of its input neuron to its own internal value.
+The primary function of the `CloneNode` is to receive an input value from another neuron in the network and replicate that value as its output. This cloning process, while simple in concept, is essential for several reasons:
+
+* **Signal Splitting and Distribution:** The `CloneNode` allows for the output of one neuron to be directed to multiple destinations within the network. This is crucial for scenarios where the same signal needs to influence different processing paths or control multiple outputs simultaneously. 
+
+* **Normalization and Modification:** Although the `CloneNode` itself doesn't directly modify the input value, its position within the signal flow allows for applying normalization or other transformations to the cloned signal before passing it on to subsequent neurons. This is evident in the use of `CloneNode` instances for inversion and steering in the "IR\_Sensor\_Driving\_Servo.txt" example. The code snippet below demonstrates how a `CloneNode` named `invert` is used to invert the output of an `AnalogSensor` before feeding it into another `CloneNode` responsible for steering behavior.
+
+---
 
 - `void setValue(float newValue)` - Sets the internal value to the provided value.
 
