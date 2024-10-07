@@ -8,10 +8,6 @@
 
 ### BeatGenerator
 
-The `BeatGenerator` class generates a rhythmic pulse, similar to a metronome.
-
-#### Core Function
-
 The `BeatGenerator` acts as a digital metronome, generating a rhythmic on-off signal that can drive other components in the system. This is useful for applications that require timed events or synchronized behaviors.
 
 #### Key Features and Methods
