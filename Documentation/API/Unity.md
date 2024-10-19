@@ -7,22 +7,22 @@ Better descriptions coming soon.
 ## Index
 
 - [Drivers](#drivers)
-    - [Animator Driver](#animatordriver)
-    - [Audio Driver](#audiodriver)
-    - [Blendshape Driver](#blendshapedriver)
-    - [Camera Driver](#cameradriver)
-    - [Canvas Driver](#canvasdriver)
-    - [Despawn Driver](#despawndriver)
-    - [Game Object Active Driver](#gameobjectactivedriver)
-    - [Growth Driver](#growthdriver)
-    - [Light Driver](#lightdriver)
-    - [Material Driver](#materialdriver)
-    - [Rigidbody Driver](#rigidbodydriver)
-    - [Scene Load Driver](#sceneloaddriver)
-    - [Serial Driver](#serialdriver)
-    - [Spawn Driver](#spawndriver)
-    - [Text Driver](#textdriver)
-    - [Transform Driver](#transformdriver)
+    - [AnimatorDriver](#animatordriver)
+    - [AudioDriver](#audiodriver)
+    - [BlendshapeDriver](#blendshapedriver)
+    - [CameraDriver](#cameradriver)
+    - [CanvasDriver](#canvasdriver)
+    - [DespawnDriver](#despawndriver)
+    - [GameObjectActiveDriver](#gameobjectactivedriver)
+    - [GrowthDriver](#growthdriver)
+    - [LightDriver](#lightdriver)
+    - [MaterialDriver](#materialdriver)
+    - [RigidbodyDriver](#rigidbodydriver)
+    - [SceneLoadDriver](#sceneloaddriver)
+    - [SerialDriver](#serialdriver)
+    - [SpawnDriver](#spawndriver)
+    - [TextDriver](#textdriver)
+    - [TransformDriver](#transformdriver)
 
 - [Generators](#generators)
     -   [Beat Generator](#beatgenerator)
@@ -53,124 +53,154 @@ Better descriptions coming soon.
 
 ### AnimatorDriver
 
-**Description:** Controls parameters of an Animator component.
+**Description:** Controls animation parameters in Unity's Animator component, enabling animation blending and manipulation based on input signals.
 
-*   SetupDriver()
-*   RecordBaselineValues()
-*   Do()
+**Methods:**
+
+* `SetupDriver()` - Initializes the `AnimatorDriver` by retrieving and storing a reference to the Animator component on the target game object.
+
 
 ### AudioDriver
 
-**Description:** Controls an audio source component.
+**Description:** The `AudioDriver` manipulates audio properties, such as volume and pitch, of an `AudioSource` component.
 
-*   SetupDriver() - sets the audio source to drive and initializes a timer.
-*   RecordBaselineValues()
-*   Do() - plays the audio source when triggered and blends the baseline pitch and volume with the input signal.
+**Methods:**
+
+* `SetupDriver()` - Initializes the driver by fetching the `AudioSource` component from the target game object, setting up a timer for delayed triggering.
+* `RecordBaselineValues()` - Records the initial values of audio properties before any manipulation. 
+* `Do()` - Executes the audio manipulation based on input signal and selected output type, applying pitch shift, volume control, or triggering playback. 
 
 ### BlendshapeDriver
 
-**Description:** Controls a blendshape on a skinned mesh renderer.
+**Description:** Controls blendshape weights on a `SkinnedMeshRenderer`, allowing for dynamic morphing and deformation of 3D models based on input signals.
 
-*   SetupDriver() - Gets the skinned mesh renderer and blendshape index.
-*   RecordBaselineValues() - Records the blendshape's initial weight.
-*   Do() - Sets the blendshape weight by blending the baseline value with the input signal.
+**Methods:**
+
+* `SetupDriver()` - Initializes the driver, fetching the `SkinnedMeshRenderer` component, finding the index of the target blendshape, and recording its initial weight. 
+* `Do()` -  Adjusts the blendshape weight according to the input signal, smoothly interpolating between the baseline and target values.
+
 
 ### CameraDriver
 
-**Description:** Controls properties of a camera.
+**Description:** The `CameraDriver` modifies properties of a `Camera` component, such as background color, field of view, and clipping planes, based on input signals.
 
-*   Do() - modifies camera properties like background color, field of view, and clipping planes, based on the input signal and selected output type.
-*   RecordBaselineValues() - Records the initial values of the camera's properties.
-*   SetupDriver() - Gets the camera component from the target object.
+**Methods:**
+
+* `Do()` - Modifies camera properties (background color, field of view, or clipping planes) based on input signal and chosen output type. 
+* `RecordBaselineValues()` - Records the initial values of the camera's background color, field of view, and clipping planes for use as a reference point for blending. 
+* `SetupDriver()` -  Initializes the driver by getting the `Camera` component from the targeted game object.
+
 
 ### CanvasDriver
 
-**Description:** Controls properties of a canvas group, such as its alpha or scale factor.
+**Description:** The `CanvasDriver` manipulates properties of UI elements within a Canvas, including scaling and transparency. 
 
-*   Do() - Modifies the canvas group's alpha or scale factor by blending baseline values with the input signal.
-*   RecordBaselineValues() - Records the initial alpha and scale factor of the canvas group.
-*   SetupDriver() - Gets the canvas group component from the target object.
+**Methods:**
+
+* `Do()` - Modifies either the alpha value of a `CanvasGroup` or the scale factor of a `CanvasScalar`, based on the input signal and chosen output type. 
+* `RecordBaselineValues()` - Records the initial values of either the alpha value of the `CanvasGroup` or the scale factor of the `CanvasScalar`, depending on the output type. 
+* `SetupDriver()` - Initializes the driver by fetching either the `CanvasGroup` or `CanvasScaler` component based on the chosen output type. 
+
 
 ### DespawnDriver
 
-**Description:** Destroys the game object when triggered.
+**Description:** The `DespawnDriver` destroys game objects when triggered by a specific input threshold, used for object removal or lifecycle management.
 
-*   Do() - Checks if the input signal exceeds the trigger threshold and destroys the game object.
-*   SetupDriver()
+**Methods:**
+
+* `Do()` - Checks if the input signal exceeds the trigger threshold and destroys the target game object if the condition is met. 
+* `SetupDriver()` - Initializes the driver, ensuring the target game object is set. 
 
 ### GameObjectActiveDriver
 
-**Description:** Activates or deactivates the game object based on the input signal.
+**Description:** Controls the activation and deactivation of game objects based on input signals, allowing for dynamic object visibility and behavior.
 
-*   SetupDriver() - Initializes the state change timer.
-*   RecordBaselineValues()
+**Methods:**
+
+* `SetupDriver()` - Initializes the driver, primarily setting up the timer that governs the delay between state changes.
+* `RecordBaselineValues()` - Records the initial activation state of the target game object. 
+
 
 ### GrowthDriver
 
-**Description:** This driver is not functional yet.
+**Description:** This driver dynamically changes the size of game objects, potentially creating effects of growth or expansion. 
 
-*   Do()
-*   SetupDriver() - Logs an error message.
-*   RecordBaselineValues()
+This driver is mentioned in the source, but no methods are given.
+
 
 ### LightDriver
 
-**Description:** Controls properties of a light component, like intensity and color.
+**Description:** The `LightDriver` controls properties of a `Light` component, like intensity and color, based on input signals, allowing for dynamic lighting effects.
 
-*   SetupDriver() - Gets the light component.
-*   RecordBaselineValues() - Records the initial intensity and color of the light.
-*   Do() - sets the light color by lerping between the baseline and target colors based on the input signal. If the driver is configured to drive intensity, it sets the intensity by blending the baseline intensity with the input signal using the selected output blending mode.
+**Methods:**
+
+* `SetupDriver()` - Initializes the driver by obtaining the `Light` component from the target game object.
+* `RecordBaselineValues()` - Records the initial intensity and color of the light for later blending with the target values.
+* `Do()` -  Adjusts the light's intensity or color or both, based on input signal and selected control options, smoothly interpolating between baseline and target values.
+
 
 ### MaterialDriver
 
-**Description:** Controls properties of a material.
+**Description:** The `MaterialDriver` dynamically alters properties of a material attached to a `Renderer` component.
 
-*   Do() - Changes the material color or alpha based on input signal and output type selection.
-*   RecordBaselineValues() - Records the material's initial color.
-*   SetupDriver() - Gets the Renderer component from the target object.
+**Methods:**
+
+* `Do()` - Modifies material properties, either changing the color (including alpha), based on input signal and chosen output type. 
+* `RecordBaselineValues()` - Records the initial color of the material. 
+* `SetupDriver()` - Initializes the driver by fetching the `Renderer` component from the target game object. 
 
 ### RigidbodyDriver
 
-**Description:** Applies forces and torque to a Rigidbody component.
+**Description:** The `RigidbodyDriver` applies forces and torques or modifies properties of a `Rigidbody` component based on input signals, enabling physics-based movement and interaction.
 
-*   Do() - Applies forces or modifies Rigidbody properties like mass, drag, and angular drag based on the input signal and selected output type.
-*   SetupDriver() - Gets the Rigidbody component.
-*   RecordBaselineValues() - Records initial values for mass, drag, and angular drag of the Rigidbody.
+**Methods:**
+
+* `Do()` - Applies forces, torques, or modifies properties of the `Rigidbody` (mass, drag, angular drag) based on input signal and chosen output type.
+* `SetupDriver()` - Initializes the driver, primarily getting the `Rigidbody` component and recording baseline values for mass, drag, and angular drag.
+
 
 ### SceneLoadDriver
 
-**Description:** Loads a new scene when the input signal exceeds a threshold.
+**Description:**  The `SceneLoadDriver` triggers the loading of a new scene when the input signal crosses a specified threshold.
 
-*   Do() - checks if the input signal is above the trigger threshold. If it is, it gets the current scene, logs the scene name, and loads the new scene using SceneManager.LoadScene.
-*   SetupDriver() 
+**Methods:**
+
+* `Do()` - Checks if the input signal surpasses the trigger threshold and if so, loads the specified scene. 
 
 ### SerialDriver
 
-**Description:** Sends data to a device over a serial port. This requires a SerialNode to manage the port.
+**Description:** The `SerialDriver` sends data over a serial port, allowing communication with external devices or other applications. It requires a `SerialNode` to manage the serial port. 
 
-*   SetupDriver() - sets the frame rate to 0.03f.
+**Methods:**
+
 
 ### SpawnDriver
 
-**Description:** Spawns a new game object with the SpawnDriverChild component.
+**Description:** This driver creates new game objects at runtime, potentially with randomized positions, rotations, and scales, driven by input signals. 
 
-*   Do() - checks if spawn on trigger is true, and if so, it checks if the input signal is above the trigger threshold. If both conditions are met, it spawns the new game object using Instantiate.
+**Methods:**
+
+* `Do()` - Spawns a new instance of a predefined prefab, applying optional random offsets to its position, rotation, and scale. 
+
 
 ### TextDriver
 
-**Description:** Controls the text content of a Text component.
+**Description:** The `TextDriver` manipulates the text content of a UI `Text` component.
 
-*   Do() - Updates the text content by either appending the input signal to the baseline text or replacing the text with the input signal.
-*   RecordBaselineValues() - Stores the initial text content.
-*   SetupDriver() - Gets the Text component.
+**Methods:**
+
+* `Do()` - Modifies the text content of a `Text` component. It either appends the input signal to the existing text or replaces the text entirely with the input.
+* `RecordBaselineValues()` - Records the initial text content of the `Text` component before any manipulation. 
+* `SetupDriver()` - Initializes the driver by obtaining the `Text` component from the target game object.
+
 
 ### TransformDriver
 
-**Description:** Modifies the position, rotation, or scale of a Transform.
+**Description:** The `TransformDriver` manipulates the position, rotation, or scale of a game object's `Transform` component based on input signals.
 
-*   Do() - Changes the Transform's position, rotation, or scale based on the input signal, selected output type, and specified output axis.
-*   RecordBaselineValues() - Records initial values for position, rotation, and scale of the Transform.
-*   SetupDriver() - Gets the Transform component. 
+**Methods:**
+
+* `Do()` - Modifies the position, rotation, or scale of the target `Transform`, based on the input signal, chosen output type, and specified axis. 
 
 
 ## Generators
