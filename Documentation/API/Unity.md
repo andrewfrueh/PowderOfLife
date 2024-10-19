@@ -29,6 +29,15 @@ Better descriptions coming soon.
     -   [Continuous Generator](#continuousgenerator)
     -   [Random Generator](#randomgenerator)
 
+- [Nodes](#nodes)
+    - [CloneNode](#clonenode)
+    - [CurveNode](#curvenode)
+    - [EncodedMotorNode](#encodedmotornode)
+    - [LerpNode](#lerpnode)
+    - [MixNode](#mixnode)
+    - [SerialNode](#serialnode)
+    - [SustainNode](#sustainnode)
+
 - [Sensors](#sensors)
     - [Audio Sensor](#audiosensor)
     - [Button Sensor](#buttonsensor)
@@ -187,6 +196,93 @@ Better descriptions coming soon.
 *   SetupTimers()
 
 **Analysis of Sources:** The source code reveals the names of the Generator classes and their associated methods, but it does not provide explicit descriptions of their functionality.  
+
+## Nodes
+
+### CloneNode
+
+**Description:** The `CloneNode` replicates the input value from another neuron as its output, allowing a signal to be directed to multiple destinations within the network.
+
+**Methods:**
+
+* `work()` - Replicates the input value.
+* `setValue(float newValue)` - Sets the internal value of the CloneNode.
+
+### CurveNode
+
+**Description:** The `CurveNode` applies mathematical curves to signal values, acting as a non-linear signal processor to alter the response characteristics of other nodes. It uses the `Curvinator` class for curve calculations.
+
+**Methods:**
+
+* `work()` - Applies the specified curve to the input value.
+* `setCurve(Curvinator::mode newCurve, float newExponent = 2)` -  Sets the type of curve and exponent to use.
+
+### EncodedMotorNode
+
+**Description:** A complex node that combines multiple neurons to create a neural cluster for controlling an encoded motor. It utilizes `EncoderSensor`, `ButtonSensor`, and `MotorDriver`.
+
+**Methods:**
+
+* `work()` - Updates the node's state and processing based on the chosen encoding mode (analog or digital).
+* `workFast()` -  Updates the connected sensors (`encoderAnalog`, `encoderDigital`, `buttonA`, `buttonB`).
+* `wake()` - Initializes the node.
+* `setPin(int mdPin1, int mdPin2, int mePin)` -  Sets the pins for the motor driver and motor encoder for analog mode.
+* `setPin(int mdPin1, int mdPin2, int mePin1, int mePin2, int esPin1 = -1, int esPin2 = -1, bool mePullup = true, bool esPullup = true)` - Sets the pins for the motor driver, motor encoder, and optional endstops for digital mode.
+* `setSteps(int newSteps)` - Sets the number of steps for the motor in digital mode, works only with one or no endstop.
+* `getSteps()` - Returns the number of steps set for the motor.
+* `setLerp(float newSpeed, float newAcceleration)` - Sets the speed and acceleration of the internal `LerpNode`.
+* `setBehavior(behaviorMode newBehavior)` - Sets the motor's behavior mode (undefined, endstopA, endstopB, standard).
+* `getBehavior()` - Returns the current behavior mode of the motor.
+* `getEndstopState(bool index)` - Returns the state of the specified endstop (0 or 1).
+* `getEncodingMode()` -  Returns the current encoding mode (analog or digital).
+* `setEncodingMode(encodingMode newMode)` -  Sets the encoding mode (analog or digital).
+* `setMotorStartSpeed(float newSpeed)` - Sets the motor's startup speed.
+* `setAnalogWindow(int rangeMin, int rangeMax)` - Sets the analog input window for the encoder in analog mode.
+
+### LerpNode
+
+**Description:** A wrapper for the `RailcarLerp` class, the `LerpNode` smooths out signals between two nodes, reducing noise or jerky behavior.
+
+**Methods:**
+
+* `work()` - Updates the lerp based on the input value and sets the internal value to the lerped value.
+* `wake()` - Initializes the node.
+* `setLerp(float newSpeed, float newAcceleration)` -  Sets the speed and acceleration of the lerp.
+
+### MixNode
+
+**Description:** A wrapper for the `Mixer` class, the `MixNode` blends the signals of two neurons based on a chosen blending mode to produce a mixed output.
+
+**Methods:**
+
+* `work()` - Blends the input values using the specified mixing mode and sets the internal value to the result.
+* `setMode(Mixer::mode newMode)` - Sets the mixing mode to use for blending the input signals.
+
+### SerialNode
+
+**Description:** The `SerialNode` manages serial communication, opening and managing the serial port for use by `SerialSensor` and `SerialDriver` for sending and receiving messages.
+
+**Methods:**
+
+* `work()` - Checks and processes incoming serial data.
+* `wake()` - Initializes the node and sets the serial rate if not already defined.
+* `setSerial(serialRate newRate)` - Sets the serial rate using the predefined options (debug, standard, midi).
+* `setSerial(unsigned int newRate)` - Sets the serial rate using a custom baud rate.
+* `getPortData(byte channelName)` - Retrieves data from the specified channel.
+* `setPortData(byte channelName, float newValue)` - Sends data to the specified channel.
+* `setDepth(byte newDepth)` - Sets the decimal precision for float values in serial communication.
+
+
+### SustainNode
+
+**Description:** The `SustainNode` maintains a signal at a certain level for a specified duration, useful for holding a state or extending the duration of an event.
+
+**Methods:**
+
+* `work()` - Updates the node's state, handling the sustain behavior based on input and threshold settings.
+* `setThreshold(float newThreshold)` - Sets the threshold value that triggers the sustain.
+* `setDuration(float newDuration)` - Sets the duration for the sustain.
+* `setHoldHigh(bool newHold)` - Sets whether the sustain should hold the signal high or low.
 
 
 ## Sensors
