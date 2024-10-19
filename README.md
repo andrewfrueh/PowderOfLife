@@ -30,17 +30,13 @@ Yes. Also a work in progress
 
 Download the Arduino library ZIP file and install it on your system:
 
-[Powder Of Life, Arduino library](Arduino/PowderOfLife.zip)
+[Check out the Arduino library](Arduino/)
 
-The library comes with example projects including the projects featured above in the intro.
+### For the Unity environment
 
-#### Okay, but how do I install an Arduino library?
+Download the Unity package file and install it on your system:
 
-If you are not familiar with how to install an Arduino library, more info can be found here:
-
-https://www.arduino.cc/en/guide/libraries
-
-
+[Check out the Unity package](Unity/)
 
 ## How do I contribute code?
 
