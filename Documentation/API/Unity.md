@@ -1,12 +1,8 @@
 # Unity Library API
 
-Here is an API for all components in the Unity library, grouped by types:
-
-LOL... TODO... comment yer code or it can't make an API
-
-## Index
-
-### Comprehensive API of Unity Library Drivers
+LOL... TODO... comment yer code or it can't make an API.
+But here is a list of components anyway for reference. 
+Better descriptions coming soon.
 
 ## Index
 
