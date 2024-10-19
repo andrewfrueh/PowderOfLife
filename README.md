@@ -8,41 +8,36 @@ Welcome! Glad you could stop by.
 
 ### What is Powder Of Life?
 
-POL is a framework for building simple neural networks to power interactive and autonomous analog robots.
+Powder Of Life (POL) is a framework for building things. You can create musical instruments, autonomous robots, oversized interfaces, interactive sculptures, or whatever other weird thing your heart desires. POL allows you to connect components together easily and get robust, predictable behavior.
 
 Feel free to [check out my socials via my website](https://andrewfrueh.com) to see the kinds of things I'm making with POL (i.e. why I put in the endless hours it takes to build all this).
 
-### Is there an API?
+### Is there documentation?
 
-Yes. [Check out the API](Documentation/API) It's a work in progress, but I'm building the docs.
+Yes. It's a work in progress, but I'm building the docs.
+
+[Documentation](Documentation/)
+
+#### API
+
+[Check out the API](Documentation/API)
 
 ## How do I get started?
 
-To get up and running, just download the Arduino library ZIP file and install it on your system:
+### For the Arduino environment
+
+Download the Arduino library ZIP file and install it on your system:
 
 [Powder Of Life, Arduino library](Arduino/PowderOfLife.zip)
 
 The library comes with example projects including the projects featured above in the intro.
 
-### Okay, but how do I install an Arduino library?
+#### Okay, but how do I install an Arduino library?
 
 If you are not familiar with how to install an Arduino library, more info can be found here:
 
 https://www.arduino.cc/en/guide/libraries
 
-## Where does this come from?
-
-### We're not in Kansas anymore
-
-This fantastic name comes from [L. Frank Baum's Oz series](https://en.wikipedia.org/wiki/The_Marvelous_Land_of_Oz). If you sprinkle the powder on something, and say the magic words, the inanimate object will come to life. For example, the [Jack Pumpkinhead](https://en.wikipedia.org/wiki/Jack_Pumpkinhead) and the [Sawhorse](https://en.wikipedia.org/wiki/List_of_Oz_characters_(created_by_Baum)#Sawhorse).
-
-### Sure... but what is *this*
-
-Powder Of Life *(POL)* is a framework for building things. You can create musical instruments, autonomous robots, oversized interfaces, interactive sculptures, or whatever other weird thing your heart desires. POL allows you to connect components together without getting bogged down in the figity little bits of figuring out how to work with this sensor or that motor. You just connect the two together, and you will have a reacitve robot that responds to its evironment. 
-
-I developed POL in response to both my own research and the needs of my students. It began as a collection of components that were developed from recurring problems in teaching new media art classes. Students in these classes are struggling through multiple specializations to achieve their goal (electrical, mechanical, and software engineering). I have found that my best contribution in that process is a simple, well-written script, properly compartmentalized to do a task well. These scripts eventually became the foundation of the Powder Of Life framework.
-
-To see examples of how you might use POL, start by looking at my [personal website](https://andrewfrueh.com). It has links to all the places I post currently on social media, and you can see how I am currently using POL.
 
 
 ## How do I contribute code?
