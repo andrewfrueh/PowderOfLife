@@ -16,9 +16,11 @@ Feel free to [check out my socials via my website](https://andrewfrueh.com) to s
 
 Yes. It's a work in progress, but I'm building the docs.
 
-[Documentation](Documentation/)
+[Check out the Documentation](Documentation/)
 
-#### API
+### Is there an API?
+
+Yes. Also a work in progress
 
 [Check out the API](Documentation/API)
 
