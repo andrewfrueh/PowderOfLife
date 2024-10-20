@@ -32,5 +32,3 @@
 **API / Reference:** [API](API/)
 
 **You can find examples of POL in use on the creator's website:** [https://andrewfrueh.com]. 
-
-This page summarizes the core concepts and features of POL based on the provided manual excerpts. For detailed information and specific component functionalities, refer to the complete POL manual and API documentation (link to be provided).
