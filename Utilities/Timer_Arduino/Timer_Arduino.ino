@@ -2,6 +2,7 @@
 #include "Timer.h"
 
 Timer seconds;
+Timer outOfPhase;
 
 char ledPin = 13;
 
@@ -13,7 +14,10 @@ void setup() {
   seconds.setRate(1.0);
   //seconds.setRateMillis(1000);
   //seconds.setRateMicros(1000000);
+
+  outOfPhase.setRate(1.0);
   
+
 }
 
 void loop() {

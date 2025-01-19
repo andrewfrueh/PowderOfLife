@@ -34,7 +34,7 @@ Public methods:
 
 	===========================
 
-	Powder Of Life, Copyright (C) Andrew Frueh, 2018-2022
+	Powder Of Life, Copyright (C) Andrew Frueh, 2018-2025
 	Powder Of Life is under the GNU General Public License. See "LICENSE.txt" file included with this library.
 
 ==================================================================================================== */
