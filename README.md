@@ -53,7 +53,7 @@ To [quote Ben Johnson](https://changelog.com/news/open-source-but-closed-to-cont
 
 ## License for software in all environments
 
-Powder Of Life, Copyright (C) Andrew Frueh, 2018-2024
+Powder Of Life, Copyright (C) Andrew Frueh, 2018-2025
 Powder Of Life is under the GNU General Public License. See "LICENSE.txt" file.
 
 ---
