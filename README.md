@@ -51,21 +51,18 @@ To [quote Ben Johnson](https://changelog.com/news/open-source-but-closed-to-cont
 
 ---
 
-## License for software in all environments
-
-Powder Of Life, Copyright (C) Andrew Frueh, 2018-2025
-Powder Of Life is under the GNU General Public License. See "LICENSE.txt" file.
-
----
-
-## Graphics and Logos
-
-All graphics, logos are under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
-https://creativecommons.org/licenses/by-nc-sa/4.0/
+# Powder of Life
+[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://opensource.org/licenses/GPL-2.0)
+[![License: CERN OHL W v2](https://img.shields.io/badge/License-CERN%20OHL%20W%20v2-orange.svg)](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ---
 
-## Parts and Mechanical Designs
+### Academic & Research Attribution
+Powder of Life is designed to support modular innovation in research contexts. If this framework supports your research, publication, or patented technology, please provide attribution as follows:
 
-All all 2D parts, 3D parts, and related design files are under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
-https://creativecommons.org/licenses/by-nc-sa/4.0/
+**Preferred Citation:**
+> Frueh, A. (2026). *Powder of Life: A Modular Framework for Robotics and Research Integration*. [Source Code]. https://github.com/andrewfrueh/PowderOfLife
+
+**Short Form (for Grant Publications):**
+> "The modular prototyping and system integration for this project were supported by the Powder of Life framework (Frueh, 2018-2026)."

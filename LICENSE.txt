@@ -1,29 +1,23 @@
+# Licensing for Powder of Life
 
-## License for software in all environments
+Powder of Life is a multi-modal framework. To support its diverse goals in STEM education, 
+research, and commercial engineering, different components are licensed as follows:
 
-Powder Of Life, Copyright (C) Andrew Frueh, 2018-2024
+## 1. Software (Code)
+All source code, including Python scripts, C++ headers, and firmware, is licensed under the 
+**GNU General Public License v2.0 (GPL-2.0-only)**.
+See: https://opensource.org/licenses/GPL-2.0
 
-Powder Of Life is free software: you can redistribute it and/or modify it under the terms of the 
-GNU General Public License as published by the Free Software Foundation, either version 3 of the 
-License, or (at your option) any later version.
+## 2. Hardware (CAD & Designs)
+All physical design files, including Blender assets (.blend), STEP files, and STL files, 
+are licensed under the **CERN Open Hardware License Version 2 - Weakly Reciprocal (CERN-OHL-W-2.0)**.
+See: https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2
 
-Powder Of Life is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; 
-without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with Powder Of Life.
-If not, see <https://www.gnu.org/licenses/>.
-
----
-
-## Graphics and Logos
-
-All graphics, logos are under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
-https://creativecommons.org/licenses/by-nc-sa/4.0/
+## 3. Documentation & Media
+All educational materials, documentation, images, and logos are licensed under the 
+**Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**.
+See: https://creativecommons.org/licenses/by-sa/4.0/
 
 ---
-
-## Parts and Mechanical Designs
-
-All all 2D parts, 3D parts, and related design files are under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
-https://creativecommons.org/licenses/by-nc-sa/4.0/
+Copyright (c) 2018-2026 Andrew Frueh. 
+Individual licenses apply to their respective asset classes as defined above.

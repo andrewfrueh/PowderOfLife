@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this framework in your research or grant-funded projects, please cite it as follows."
+authors:
+  - family-names: Frueh
+    given-names: Andrew
+    orcid: "https://orcid.org/0009-0009-3082-3415"
+title: "Powder of Life: A Modular Framework for Robotics and Research Integration"
+version: 1.0.0
+date-released: 2026-05-07
+url: "https://github.com/andrewfrueh/PowderOfLife"
