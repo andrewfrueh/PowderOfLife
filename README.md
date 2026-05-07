@@ -65,4 +65,4 @@ Powder of Life is designed to support modular innovation in research contexts. I
 > Frueh, A. (2026). *Powder of Life: A Modular Framework for Robotics and Research Integration*. [Source Code]. https://github.com/andrewfrueh/PowderOfLife
 
 **Short Form (for Grant Publications):**
-> "The modular prototyping and system integration for this project were supported by the Powder of Life framework (Frueh, 2018-2026)."
+> "The modular prototyping and system integration for this project were supported by the Powder of Life framework (Frueh, 2026)."
