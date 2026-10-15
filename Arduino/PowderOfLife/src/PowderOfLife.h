@@ -11,7 +11,7 @@
    
   ===========================
 
-  Powder Of Life, Copyright (C) Andrew Frueh, 2018-2025
+  Powder Of Life, Copyright (C) Andrew Frueh, 2018-2026
   Powder Of Life is under the GNU General Public License. See "LICENSE.txt" file included with this library.
 
 ==================================================================================================== */
@@ -94,19 +94,16 @@
 
 // Sensors
 #include "AnalogSensor.h"
-//#include "DigitalInputSensor.h"
-//#include "AccelerometerSensor.h"
-//#include "AudioSensor.h"
 #include "ButtonSensor.h"
 #include "PingSensor.h"
-#include "MPUSensor.h"
+//#include "MPUSensor.h" // Requires the Wire library. Uncomment to activate. 
 #include "EncoderSensor.h"
 
 // Drivers
 #include "AnalogDriver.h"
 #include "MotorDriver.h"
 #include "MidiDriver.h"
-// #include "ServoDriver.h" // Requires the Servo library. Not implemented due to how the Arduino IDE handles dependencies (it sucks)
+// #include "ServoDriver.h" // Requires the Servo library. Uncomment to activate.
 #include "StepperDriver.h"
 #include "ToneDriver.h"
 
