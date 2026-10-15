@@ -1,0 +1,315 @@
+#######################################
+# Syntax Coloring map For Powder Of Life
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+# Not actually a type,  but should be color coded
+PowderOfLife	KEYWORD1
+
+# Neuron
+Neuron	KEYWORD1
+Sensor	KEYWORD1
+Driver	KEYWORD1
+Generator	KEYWORD1
+Node	KEYWORD1
+
+# Sensors
+AnalogSensor	KEYWORD1
+ButtonSensor	KEYWORD1
+PingSensor	KEYWORD1
+EncoderSensor	KEYWORD1
+MPUSensor	KEYWORD1
+SerialSensor	KEYWORD1
+
+# Drivers
+AnalogDriver	KEYWORD1
+MotorDriver	KEYWORD1
+MidiDriver	KEYWORD1
+ServoDriver	KEYWORD1
+StepperDriver	KEYWORD1
+SerialDriver	KEYWORD1
+ToneDriver	KEYWORD1
+
+# Generators
+BeatGenerator	KEYWORD1
+RandomGenerator	KEYWORD1
+ContinuousGenerator	KEYWORD1
+
+# Nodes 
+CloneNode	KEYWORD1
+LerpNode	KEYWORD1
+SustainNode	KEYWORD1
+MixNode	KEYWORD1
+CurveNode	KEYWORD1
+
+# Other
+Engine	KEYWORD1
+Curvinator	KEYWORD1
+Mixer	KEYWORD1
+RailcarLerp	KEYWORD1
+ScaleMapper	KEYWORD1
+Timer	KEYWORD1
+Toolkit KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+# ===== Neuron =====
+# Overrides (protected)
+wake	KEYWORD2
+workFast	KEYWORD2
+work	KEYWORD2
+# Core functionality (public)
+start	KEYWORD2
+update	KEYWORD2
+setEnabled	KEYWORD2
+getEnabled	KEYWORD2
+setCloning	KEYWORD2
+getCloning	KEYWORD2
+setFrameTime	KEYWORD2
+getFrameTime	KEYWORD2
+getFrameDelta	KEYWORD2
+# Input neuron
+setInput	KEYWORD2
+getInput	KEYWORD2
+hasInput	KEYWORD2
+# Value
+setValue	KEYWORD2
+getValue	KEYWORD2
+getState	KEYWORD2
+getRawValue	KEYWORD2
+setValueIsValid	KEYWORD2
+getValueIsValid	KEYWORD2
+# Normalize
+setNormal	KEYWORD2
+doNormalDecay	KEYWORD2
+# Input range
+setNormalRange	KEYWORD2
+getNormalMin	KEYWORD2
+getNormalMax	KEYWORD2
+
+# ===== Common =====
+setPin	KEYWORD2
+setReverse	KEYWORD2
+setMode	KEYWORD2
+
+# AnalogSensor
+setCenter	KEYWORD2
+
+# BeatGenerator
+setTempo	KEYWORD2
+getTempo	KEYWORD2
+setDecay	KEYWORD2
+getDecay	KEYWORD2
+setRamp	KEYWORD2
+setSubdivisions	KEYWORD2
+getSubdivisions	KEYWORD2
+clickBeat	KEYWORD2
+getBeat	KEYWORD2
+getState	KEYWORD2
+getRatio	KEYWORD2
+getClick	KEYWORD2
+
+# ButtonSensor
+setToggle	KEYWORD2
+getDown	KEYWORD2
+getUp	KEYWORD2
+
+# Curvinator
+curve	KEYWORD2
+curveIn	KEYWORD2
+curveOut	KEYWORD2
+curveOutIn	KEYWORD2
+curveInOut	KEYWORD2
+curveBell	KEYWORD2
+curveSkew	KEYWORD2
+curveBathtub	KEYWORD2
+
+
+# CurveNode
+setCurve	KEYWORD2
+
+# ScaleMapper
+getNumberOfScales	KEYWORD2
+
+# PingSensor
+sendPing	KEYWORD2
+checkEcho	KEYWORD2
+setInvalid	KEYWORD2
+
+# LerpNode
+setLerp	KEYWORD2
+
+# MPUSensor
+setAxis	KEYWORD2
+
+# RandomGenerator
+getRandomValue	KEYWORD2
+randomFloat	KEYWORD2
+setRandomRates	KEYWORD2
+
+# SustainNode
+setTime	KEYWORD2
+setLevel	KEYWORD2
+
+# ServoDriver
+setRange	KEYWORD2
+
+
+# Engine
+serialRate	KEYWORD2
+setNeuron	KEYWORD2
+addNeuron	KEYWORD2
+getNeuron	KEYWORD2
+hasNeuron	KEYWORD2
+countNeurons	KEYWORD2
+setSerial	KEYWORD2
+groundAnalogInput	KEYWORD2
+
+
+# for the Timer
+interval	KEYWORD2
+timeout	KEYWORD2
+reset	KEYWORD2
+setRate	KEYWORD2
+getRate	KEYWORD2
+getCycles	KEYWORD2
+getTimeElapsed	KEYWORD2
+getTimeRemaining	KEYWORD2
+getTimeRatio	KEYWORD2
+getDelta	KEYWORD2
+
+# utilities
+mapi	KEYWORD2
+mapf	KEYWORD2
+absf	KEYWORD2
+constrainf	KEYWORD2
+getSign	KEYWORD2
+
+
+# ===== Mixer =====
+Mix	KEYWORD2
+
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+# Enums
+
+# Engine.serialRate
+serialRate	LITERAL1
+debug	LITERAL1
+standard	LITERAL1
+midi	LITERAL1
+
+# Neuron.normalMode
+normalMode	LITERAL1
+none	LITERAL1
+automatic	LITERAL1
+custom	LITERAL1
+slide	LITERAL1
+steer	LITERAL1
+
+# Neuron.normalClip
+normalClip	LITERAL1
+clip	LITERAL1
+overflow	LITERAL1
+invert	LITERAL1
+
+# BeatGenerator.decayMode
+decayMode	LITERAL1
+ratio	LITERAL1
+time	LITERAL1
+
+# Curvinator.mode
+in	KEYWORD2
+out	KEYWORD2
+outIn	KEYWORD2
+inOut	KEYWORD2
+bell	KEYWORD2
+skew	KEYWORD2
+bathtub	KEYWORD2
+
+
+# PingSensor.invalidMode
+invalidMode 	LITERAL1
+hold	LITERAL1
+min	LITERAL1
+mid	LITERAL1
+max	LITERAL1
+
+# StepperDriver.modes
+modes	LITERAL1
+range	LITERAL1
+rate	LITERAL1
+
+# StepperDriver.microsteps
+microsteps	LITERAL1
+full	LITERAL1
+half	LITERAL1
+quarter	LITERAL1
+eighth	LITERAL1
+sixteenth	LITERAL1
+
+# MPUSensor.modes
+accelerometer	LITERAL1
+gyroscope	LITERAL1
+temperature	LITERAL1
+
+# MPUSensor.axes
+x	LITERAL1
+y	LITERAL1
+z	LITERAL1
+all	LITERAL1
+
+# Curvinator methods (enum type menu conflicts with these... why?)
+none	LITERAL1
+in	LITERAL1
+out	LITERAL1
+inOut	LITERAL1
+outIn	LITERAL1
+bell	LITERAL1
+skew	LITERAL1
+bathtub	LITERAL1
+
+# Mixer.mode
+mode	LITERAL1
+add	LITERAL1
+subtract	LITERAL1
+multiply	LITERAL1
+divide	LITERAL1
+screen	LITERAL1
+overlay	LITERAL1
+difference	LITERAL1
+min	LITERAL1
+max	LITERAL1
+less	LITERAL1
+greater	LITERAL1
+modulo	LITERAL1
+power	LITERAL1
+average	LITERAL1
+AND	LITERAL1
+OR	LITERAL1
+NAND	LITERAL1
+NOR	LITERAL1
+XOR	LITERAL1
+XNOR	LITERAL1
+
+
+#==========================
+
+EncoderQuadraturePatterns LITERAL1
+
+EncoderSensorMode	LITERAL1
+range	LITERAL1
+rate	LITERAL1

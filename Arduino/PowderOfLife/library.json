@@ -1,0 +1,25 @@
+{
+  "name": "Powder Of Life",
+  "version": "0.1",
+  "keywords": "library",
+  "description": "Powder Of Life is a trans-system framework for creating analog robotic systems",
+  "license": "CC",
+  "authors":
+  {
+    "name": "Andrew Frueh",
+    "email": "andrewfrueh@gmail.com",
+    "url": "https://andrewfrueh.com",
+    "maintainer": true
+  },
+  "repository":
+  {
+    "type": "none",
+    "url": "none",
+    "branch": "none"
+  },
+  "downloadUrl": "TODO",
+  "include": "src",
+  "examples": "examples/*/*.ino",
+  "frameworks": "arduino",
+  "platforms": ["atmelavr", "atmelsam", "teensy"]
+ }
