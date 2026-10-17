@@ -96,7 +96,7 @@
 #include "AnalogSensor.h"
 #include "ButtonSensor.h"
 #include "PingSensor.h"
-//#include "MPUSensor.h" // Requires the Wire library. Uncomment to activate. 
+#include "MPUSensor.h" // Requires the Wire library (which ships with Arduino)
 #include "EncoderSensor.h"
 
 // Drivers

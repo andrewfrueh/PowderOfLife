@@ -35,7 +35,7 @@ Engine engine;
 ButtonSensor button;
 
 // Create a Lerp Node
-LerpNode lerp;
+LerpNode lerpNode;
 
 // Create a Servo object (note: this is not a POL object)
 Servo servo;
@@ -55,11 +55,11 @@ void setup() {
   button.setPinPullup(true);
 
   // Register the lerp with the engine
-  engine.addNeuron(lerp);
+  engine.addNeuron(lerpNode);
   // Set the speed of the lerp
-  lerp.setLerp(1,1);
+  lerpNode.setLerp(1,1);
   // Connect the sensor to the lerp
-  lerp.setInput(button);
+  lerpNode.setInput(button);
 
   // Set the pin on the servo object
   servo.attach(3);
@@ -72,7 +72,7 @@ void loop() {
   engine.update();
 
   // Manually update the servo object
-  servo.write(lerp.getValue()*180);
+  servo.write(lerpNode.getValue()*180);
 
 }
 

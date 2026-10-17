@@ -31,7 +31,7 @@ Engine engine;
 BeatGenerator beat;
 
 // Create an instance of Lerp Node
-LerpNode lerp;
+LerpNode lerpNode;
 
 // Create an instance of Timer for debugging
 Timer debugTimer;
@@ -47,12 +47,12 @@ void setup() {
   // ...
   beat.setTempo(30);
 
-  // Register the lerp with the engine
-  engine.addNeuron(lerp);
+  // Register the lerpNode with the engine
+  engine.addNeuron(lerpNode);
   // Connect the beat to the lerp
-  lerp.setInput(beat);
+  lerpNode.setInput(beat);
   // ...
-  lerp.setLerp(2,2);
+  lerpNode.setLerp(2,2);
 
 }
 
@@ -68,7 +68,7 @@ void loop() {
   if (debugTimer.interval()) {    
     Serial.print(beat.getValue());
     Serial.print(",");
-    Serial.print(lerp.getValue());
+    Serial.print(lerpNode.getValue());
     Serial.println();
   }
 

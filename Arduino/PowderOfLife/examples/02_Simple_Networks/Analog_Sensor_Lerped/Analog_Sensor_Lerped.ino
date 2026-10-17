@@ -24,7 +24,7 @@ Engine engine;
 // Create an Analog Sensor
 AnalogSensor sensor;
 // Create a Lerp Node
-LerpNode lerp;
+LerpNode lerpNode;
 
 // Create an instance of Timer for debugging
 Timer debugTimer;
@@ -44,13 +44,13 @@ void setup() {
   sensor.setNormal(Neuron::normalMode::none);
 
   // Register the lerp with the engine
-  engine.addNeuron(lerp);
+  engine.addNeuron(lerpNode);
   // Connect the sensor to the lerp node
-  lerp.setInput(sensor);
+  lerpNode.setInput(sensor);
   // Set the lerp speed and acceleration
-  lerp.setLerp(2, 0.0001);
+  lerpNode.setLerp(2, 0.0001);
   // Disable normalization for 0-1023 output
-  lerp.setNormal(Neuron::normalMode::none);
+  lerpNode.setNormal(Neuron::normalMode::none);
 
 
 }

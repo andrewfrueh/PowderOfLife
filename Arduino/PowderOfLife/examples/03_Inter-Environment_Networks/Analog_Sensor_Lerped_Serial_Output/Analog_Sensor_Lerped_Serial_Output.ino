@@ -24,7 +24,7 @@ Engine engine;
 // Create an Analog Sensor
 AnalogSensor sensor;
 // Create a Lerp Node
-LerpNode lerp;
+LerpNode lerpNode;
 
 // The serial node is shared by all serial drivers and sensors
 SerialNode serialManager;
@@ -44,13 +44,13 @@ void setup() {
   sensor.setPin(0);
 
   // Register the lerp with the engine
-  engine.addNeuron(lerp);
+  engine.addNeuron(lerpNode);
   // Connect the sensor to the lerp node
-  lerp.setInput(sensor);
+  lerpNode.setInput(sensor);
   // Set the lerp speed and acceleration
-  lerp.setLerp(2, 0.0001);
+  lerpNode.setLerp(2, 0.0001);
   // Disable normalization for 0-1023 output
-  lerp.setNormal(Neuron::normalMode::none);
+  lerpNode.setNormal(Neuron::normalMode::none);
 
   // Register the serial manager with the engine.
   engine.addNeuron(serialManager);
@@ -60,7 +60,7 @@ void setup() {
   // It needs to be linked to the serial manager
   serialOutput.setSerialNode(serialManager, serialOutputChannel);
   // Set the lerp as the input for this driver
-  serialOutput.setInput(sensor);
+  serialOutput.setInput(lerpNode);
 
 }
 
